@@ -1,0 +1,1426 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.21f1 (bf09ca542b87) revision 12519882'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'tr' Physical Memory: 32681 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/b1mks/GameAppJam
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+64101
+Successfully changed project path to: C:/Users/b1mks/GameAppJam
+C:/Users/b1mks/GameAppJam
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [35280] Host "[IP] 192.168.1.50 [Port] 0 [Flags] 2 [Guid] 3040309716 [EditorId] 3040309716 [Version] 1048832 [Id] WindowsEditor(7,Bugra) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [35280] Host "[IP] 192.168.1.50 [Port] 0 [Flags] 2 [Guid] 3040309716 [EditorId] 3040309716 [Version] 1048832 [Id] WindowsEditor(7,Bugra) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 6.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.21f1 (bf09ca542b87)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/b1mks/GameAppJam/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3090 (ID=0x2204)
+    Vendor:   NVIDIA
+    VRAM:     24326 MB
+    Driver:   31.0.15.5176
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56312
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006029 seconds.
+- Loaded All Assemblies, in  0.257 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.201 seconds
+Domain Reload Profiling: 456ms
+	BeginReloadAssembly (80ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (98ms)
+		LoadAssemblies (78ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (96ms)
+			TypeCache.Refresh (95ms)
+				TypeCache.ScanAssembly (87ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (201ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (158ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (107ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.441 seconds
+Refreshing native plugins compatible for Editor in 2.59 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.414 seconds
+Domain Reload Profiling: 853ms
+	BeginReloadAssembly (108ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (263ms)
+		LoadAssemblies (207ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (119ms)
+			TypeCache.Refresh (105ms)
+				TypeCache.ScanAssembly (95ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (414ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (310ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (235ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 3.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3147 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (57.1 KB). Loaded Objects now: 3610.
+Memory consumption went from 126.4 MB to 126.3 MB.
+Total: 2.415800 ms (FindLiveObjects: 0.181800 ms CreateObjectMapping: 0.106400 ms MarkObjects: 2.052000 ms  DeleteObjects: 0.074800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.337 seconds
+Refreshing native plugins compatible for Editor in 3.17 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.718 seconds
+Domain Reload Profiling: 1053ms
+	BeginReloadAssembly (125ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (154ms)
+		LoadAssemblies (203ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (719ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (288ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (209ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 3.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.1 KB). Loaded Objects now: 3613.
+Memory consumption went from 124.3 MB to 124.3 MB.
+Total: 2.361000 ms (FindLiveObjects: 0.209800 ms CreateObjectMapping: 0.147100 ms MarkObjects: 1.962400 ms  DeleteObjects: 0.040900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.310 seconds
+Refreshing native plugins compatible for Editor in 2.70 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.758 seconds
+Domain Reload Profiling: 1065ms
+	BeginReloadAssembly (115ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (138ms)
+		LoadAssemblies (191ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (758ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (337ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (245ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.1 KB). Loaded Objects now: 3616.
+Memory consumption went from 126.2 MB to 126.2 MB.
+Total: 2.231600 ms (FindLiveObjects: 0.260400 ms CreateObjectMapping: 0.129700 ms MarkObjects: 1.799900 ms  DeleteObjects: 0.040900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.318 seconds
+Refreshing native plugins compatible for Editor in 4.70 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.768 seconds
+Domain Reload Profiling: 1083ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (143ms)
+		LoadAssemblies (199ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (768ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (341ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (252ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 3.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.1 KB). Loaded Objects now: 3619.
+Memory consumption went from 128.2 MB to 128.1 MB.
+Total: 2.778700 ms (FindLiveObjects: 0.195600 ms CreateObjectMapping: 0.109000 ms MarkObjects: 2.432500 ms  DeleteObjects: 0.040700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.329 seconds
+Refreshing native plugins compatible for Editor in 2.85 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.718 seconds
+Domain Reload Profiling: 1045ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (153ms)
+		LoadAssemblies (200ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (719ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (281ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (204ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 3.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.1 KB). Loaded Objects now: 3622.
+Memory consumption went from 130.1 MB to 130.1 MB.
+Total: 2.622500 ms (FindLiveObjects: 0.230800 ms CreateObjectMapping: 0.166900 ms MarkObjects: 2.159000 ms  DeleteObjects: 0.064800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 317754.036479 seconds.
+  path: Assets/GameJam-main/Materials/honey.mat
+  artifactKey: Guid(1e00369130cb7ea46bd556043b45c366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameJam-main/Materials/honey.mat using Guid(1e00369130cb7ea46bd556043b45c366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc5b7db216778b630b9d0650d4eaf7c') in 0.097002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 113.525648 seconds.
+  path: Assets/GameJam-main/Prefabs/Honeycomb_2.fbx
+  artifactKey: Guid(d8caa274c07b5cb4b83712b0f32e75a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameJam-main/Prefabs/Honeycomb_2.fbx using Guid(d8caa274c07b5cb4b83712b0f32e75a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7553293b8d32fe3256e591a67fb480f6') in 0.032420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 47.644144 seconds.
+  path: Assets/Animation/Bee_Wing_L.controller
+  artifactKey: Guid(159327e43f80f5246a7705bbafe43c3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animation/Bee_Wing_L.controller using Guid(159327e43f80f5246a7705bbafe43c3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2ba620e439fbf3cf94daacbcf96206e9') in 0.068363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CasualGameButtonsVol02/PNG/CGB02-grey_L_btn.png
+  artifactKey: Guid(5977bf2ba8c6bc044b646d29ec421b61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CasualGameButtonsVol02/PNG/CGB02-grey_L_btn.png using Guid(5977bf2ba8c6bc044b646d29ec421b61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a5deccd24604aa2be62009796a407c5e') in 0.044858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CasualGameButtonsVol02/PNG/CGB02-orange_L_btn.png
+  artifactKey: Guid(e402d885df4c5b44f97b11ff366fb942) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CasualGameButtonsVol02/PNG/CGB02-orange_L_btn.png using Guid(e402d885df4c5b44f97b11ff366fb942) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4dec7264a7369861133644288cbeaf66') in 0.010181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/GameJam-main/Animations/1.anim
+  artifactKey: Guid(6e2dbb0df21a69b41ae015369c2a1e56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GameJam-main/Animations/1.anim using Guid(6e2dbb0df21a69b41ae015369c2a1e56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'df90a8c8fc6053c6ede78a75d2ef366a') in 0.006382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/UI/Dream_-_Half_Sky_-_Extended.jpeg
+  artifactKey: Guid(c47ea770d091b6f4ea2720081eb9b9ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/Dream_-_Half_Sky_-_Extended.jpeg using Guid(c47ea770d091b6f4ea2720081eb9b9ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '44b0825ca46f57a20cb78a7799153715') in 0.011693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/can/platformPack_tilesheet@2.png
+  artifactKey: Guid(af45743b9878827438e038719968d5b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/can/platformPack_tilesheet@2.png using Guid(af45743b9878827438e038719968d5b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0c0ccda8c2a47fc694f3b41c6e0319cb') in 0.113372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/GameJam-main/Animations/ikinci.anim
+  artifactKey: Guid(9705848c7f3cae34d85560777fefe496) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GameJam-main/Animations/ikinci.anim using Guid(9705848c7f3cae34d85560777fefe496) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7cc7997e3ed17eb611274c696655fdc9') in 0.003805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/CasualGameButtonsVol02/PNG/CGB02-green_L_btn.png
+  artifactKey: Guid(4b3c99d8a914d9c48b9e3779c311d221) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CasualGameButtonsVol02/PNG/CGB02-green_L_btn.png using Guid(4b3c99d8a914d9c48b9e3779c311d221) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dc575eaec23c7a2e1c3db70f71467098') in 0.009357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/assetler/Drop_1.fbx
+  artifactKey: Guid(33f6abae35702c44fb7500aa31d50b6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/assetler/Drop_1.fbx using Guid(33f6abae35702c44fb7500aa31d50b6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6d9fae1068238e253f2938147dfc3d8f') in 0.028554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/GameJam-main/Animations/Cube (12).controller
+  artifactKey: Guid(9b724ba280bff944f9623c9488469964) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GameJam-main/Animations/Cube (12).controller using Guid(9b724ba280bff944f9623c9488469964) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dbc7109ab69a1336f346a356e7e7e3eb') in 0.002664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Scenes/Bolum2.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Bolum2.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '20fd4ee092e254a7b7e71c61aca62626') in 0.002102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/GameJam-main/Animations/Image.controller
+  artifactKey: Guid(b3aa32535eeeec841a1f51ce5d8c52c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GameJam-main/Animations/Image.controller using Guid(b3aa32535eeeec841a1f51ce5d8c52c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c2e0c6272ad3a19db089ff82428dc69f') in 0.003303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GameJam-main/Animations/colorChange.anim
+  artifactKey: Guid(b45641daa798f91468a9ba359742d9f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GameJam-main/Animations/colorChange.anim using Guid(b45641daa798f91468a9ba359742d9f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '73c6611c9a24d3f2a88bc5d8c1c081ab') in 0.004636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scripts/Sayac.cs
+  artifactKey: Guid(cb9b762af21c44f4481c433bb58ddb28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Sayac.cs using Guid(cb9b762af21c44f4481c433bb58ddb28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '75d31b8c2b0f8ed6a6a5b0b191c26534') in 0.003981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/Sphere.prefab
+  artifactKey: Guid(3252fd6e758a5e8439d3e1b55f3aceab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Sphere.prefab using Guid(3252fd6e758a5e8439d3e1b55f3aceab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ce3d6a16f71cab6eab73fd8cd01cd4b4') in 0.007870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GameJam-main/Animations/next.anim
+  artifactKey: Guid(8d00d04d2fb1c8d4da0c33b963aee039) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GameJam-main/Animations/next.anim using Guid(8d00d04d2fb1c8d4da0c33b963aee039) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '78575de53dde721cd476474504427865') in 0.004481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GameJam-main/Prefabs/Honeycomb_3.fbx
+  artifactKey: Guid(d5a962b6058a55c4ba90bad582bc9d35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GameJam-main/Prefabs/Honeycomb_3.fbx using Guid(d5a962b6058a55c4ba90bad582bc9d35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fc595e840fac649b5cddeb413db85be2') in 0.015009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefabs/Drop_2.prefab
+  artifactKey: Guid(9e3662385b7936849b7f57e5fbf39be0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Drop_2.prefab using Guid(9e3662385b7936849b7f57e5fbf39be0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1746392866dc2a1d011ab9468a6d0fdc') in 0.009764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Materials/yellow.mat
+  artifactKey: Guid(9fc6a9c21eb481a4cbe3c04fb5aac961) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/yellow.mat using Guid(9fc6a9c21eb481a4cbe3c04fb5aac961) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6bd45914201d906a484492f23de79076') in 0.008675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CasualGameButtonsVol02/PNG/CGB02-yellow_M_btn.png
+  artifactKey: Guid(9a381012c43143849839b635c7e20527) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CasualGameButtonsVol02/PNG/CGB02-yellow_M_btn.png using Guid(9a381012c43143849839b635c7e20527) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4be96bf790a6177f5e4e0b35203c277f') in 0.012121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Materials/blue.mat
+  artifactKey: Guid(0af92747464d8604ca39a26f7afb2587) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/blue.mat using Guid(0af92747464d8604ca39a26f7afb2587) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c03d33d65c69edc61ab9df3fa22846bd') in 0.006436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CasualGameButtonsVol02/SVG/CGB02-SVG_export.svg
+  artifactKey: Guid(6f48efc26c7d61e45ac1d2aaabc1e8a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CasualGameButtonsVol02/SVG/CGB02-SVG_export.svg using Guid(6f48efc26c7d61e45ac1d2aaabc1e8a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e8c026ca3913b285b9e704f84a740336') in 0.002649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/GameJam-main/Animations/camera.anim
+  artifactKey: Guid(d6968386b51e0d640b212c880fd534df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GameJam-main/Animations/camera.anim using Guid(d6968386b51e0d640b212c880fd534df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b89e7d55ddfb345fe1d7def814fea559') in 0.005461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CasualGameButtonsVol02/PNG/CGB02-orange_S_btn.png
+  artifactKey: Guid(130a36064308f464692468bbbaaca0ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CasualGameButtonsVol02/PNG/CGB02-orange_S_btn.png using Guid(130a36064308f464692468bbbaaca0ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fae86aa227d553295b4a6237327c6857') in 0.014981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI_Script/Button_script.cs
+  artifactKey: Guid(9b12d8e609b291a489ac13c45e441af8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI_Script/Button_script.cs using Guid(9b12d8e609b291a489ac13c45e441af8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '638fcffe6f870dd7728085d62219b4f2') in 0.003049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/assetler/Bee.fbx
+  artifactKey: Guid(fdfb2a65904298b48bf69b52885de316) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/assetler/Bee.fbx using Guid(fdfb2a65904298b48bf69b52885de316) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4e46cb1c18454082663c73b5a7798ea0') in 0.024313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CasualGameButtonsVol02/PNG/CGB02-green_M_btn.png
+  artifactKey: Guid(5a457b0003ed0b5428fbd623834d2a77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CasualGameButtonsVol02/PNG/CGB02-green_M_btn.png using Guid(5a457b0003ed0b5428fbd623834d2a77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c54c274f00d3323e97ea342b408ca713') in 0.013907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GameJam-main/Animations/Canvas.controller
+  artifactKey: Guid(693cb72848b910d45bebd62928db8dd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GameJam-main/Animations/Canvas.controller using Guid(693cb72848b910d45bebd62928db8dd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '104571a3829752d28db62965ff7a79be') in 0.003680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/CasualGameButtonsVol02/PNG/CGB02-purple_L_btn.png
+  artifactKey: Guid(5cd7cefcbb188b04d95927e434087446) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CasualGameButtonsVol02/PNG/CGB02-purple_L_btn.png using Guid(5cd7cefcbb188b04d95927e434087446) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '47cc31bceb8d06a83ab4d672a7f7e91e') in 0.010061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Scenes/hakkimizda.unity
+  artifactKey: Guid(9bf138e569d4c0e4a94516cee27be37f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/hakkimizda.unity using Guid(9bf138e569d4c0e4a94516cee27be37f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4e93fd086bd870a15a0cf1ace138ea65') in 0.002356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Animation/fly.anim
+  artifactKey: Guid(232adc13e7a014f4cae0d27a8ad885be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animation/fly.anim using Guid(232adc13e7a014f4cae0d27a8ad885be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bcb75ae71ef7756022ee0ec4be78ac38') in 0.004750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CasualGameButtonsVol02/PNG/CGB02-purple_S_btn.png
+  artifactKey: Guid(4269f39beaf481647b9ba3759ce08b7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CasualGameButtonsVol02/PNG/CGB02-purple_S_btn.png using Guid(4269f39beaf481647b9ba3759ce08b7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a61fef07a1c6da305b123ef73eec60b8') in 0.013043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/GameJam/beehero.unity
+  artifactKey: Guid(e2c683a8f476246429cff371599066ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GameJam/beehero.unity using Guid(e2c683a8f476246429cff371599066ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '453d30f4c1fde2ec07f29574a487029a') in 0.003741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/CasualGameButtonsVol02/PNG/CGB02-purple_M_btn.png
+  artifactKey: Guid(07a86aad94003734382431484470348c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CasualGameButtonsVol02/PNG/CGB02-purple_M_btn.png using Guid(07a86aad94003734382431484470348c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b50939585b2097f922f2462eb6d0ba65') in 0.013315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GameJam-main/Animations/Cube (14).controller
+  artifactKey: Guid(bba029967f408ba40a0345c1ec37d562) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GameJam-main/Animations/Cube (14).controller using Guid(bba029967f408ba40a0345c1ec37d562) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ff198a200710fade5c3043d86c66920a') in 0.003610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/GameJam-main/Animations/hive.anim
+  artifactKey: Guid(18e3518355e957b4ea2a28f581d28b2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GameJam-main/Animations/hive.anim using Guid(18e3518355e957b4ea2a28f581d28b2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'be308586fabc6b0a93915640815c19ab') in 0.005307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/CasualGameButtonsVol02/PNG/CGB02-yellow_L_btn.png
+  artifactKey: Guid(0e83f9f2844f3434884372a81c992061) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CasualGameButtonsVol02/PNG/CGB02-yellow_L_btn.png using Guid(0e83f9f2844f3434884372a81c992061) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7682ceed09fc4b700781a83c1ce46333') in 0.010759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+  artifactKey: Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc using Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cd8b6cb17f12ff133e42a17cb68a8bc1') in 0.002538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.json
+  artifactKey: Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd30462d90bc4ba21367a85191685d52f') in 0.002521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile008.png
+  artifactKey: Guid(4be9771d88c667f4bba931dd4fbdf7ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile008.png using Guid(4be9771d88c667f4bba931dd4fbdf7ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b93402cdfa4d362db4d54443a41e99ca') in 0.008237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/GameJam-main/Textures/Cube (1).prefab
+  artifactKey: Guid(705b583f4525af4408f9edfa3f3dc247) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GameJam-main/Textures/Cube (1).prefab using Guid(705b583f4525af4408f9edfa3f3dc247) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4d7176b2eb9756415c2b4121f1ae0dad') in 0.007510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Characters/platformChar_walk2.png
+  artifactKey: Guid(0f39724c41f846a47aed2caca4f29d10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Characters/platformChar_walk2.png using Guid(0f39724c41f846a47aed2caca4f29d10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4130956b06c4b02a578377eba244362e') in 0.011898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GameJam-main/Scripts/next.cs
+  artifactKey: Guid(a144e80bd8d005348bda2fc5c12c2afd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GameJam-main/Scripts/next.cs using Guid(a144e80bd8d005348bda2fc5c12c2afd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4ba075e855484208ee376f0b2d68bdc0') in 0.004931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/GameJam-main/Scenes/SampleScene/NavMesh.asset
+  artifactKey: Guid(ea405d71190102c438609ec9648cd6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GameJam-main/Scenes/SampleScene/NavMesh.asset using Guid(ea405d71190102c438609ec9648cd6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd721b2bb7cde6c141a72dd5708fe3755') in 0.004471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/GameJam-main/Textures/Honeycomb_1.prefab
+  artifactKey: Guid(699a07e4cc13d1543b7dc3425e647513) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GameJam-main/Textures/Honeycomb_1.prefab using Guid(699a07e4cc13d1543b7dc3425e647513) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1581423c6c13476547fed10a159feeae') in 0.002618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Items/platformPack_item012.png
+  artifactKey: Guid(be79813023e0dbe48a41387f901ea55d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Items/platformPack_item012.png using Guid(be79813023e0dbe48a41387f901ea55d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ed98a9673f7d9f705ef17c3e9c07f5d6') in 0.010070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/kenney_simplified-platformer-pack/Vector/platformPack_character_vector.swf
+  artifactKey: Guid(dca3594a671413e45a656c0607ad41aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/Vector/platformPack_character_vector.swf using Guid(dca3594a671413e45a656c0607ad41aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '77075607b14d2e404191c4b6560c8316') in 0.002399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Items/platformPack_item006.png
+  artifactKey: Guid(86e36a7f6bc82d140ad2ccf0d020012e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Items/platformPack_item006.png using Guid(86e36a7f6bc82d140ad2ccf0d020012e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c1321eddffc21d352b39a44f07655159') in 0.009322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/kenney_simplified-platformer-pack/Vector/platformPack_character_vector.svg
+  artifactKey: Guid(4ac6d822fa7d6e54280fdc8838928d95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/Vector/platformPack_character_vector.svg using Guid(4ac6d822fa7d6e54280fdc8838928d95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '66ed23deaaa76e1f2312fc78a2190e86') in 0.001998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile006.png
+  artifactKey: Guid(4c5a204ab4e99c242b0367e1e1cc9f9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile006.png using Guid(4c5a204ab4e99c242b0367e1e1cc9f9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9cf27e147e3a7948df949445dfc84957') in 0.008125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/GameJam-main/Scripts/nextScene.cs
+  artifactKey: Guid(0e696b2f4430a4d4ba2056c2827c3752) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GameJam-main/Scripts/nextScene.cs using Guid(0e696b2f4430a4d4ba2056c2827c3752) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5dd966df14f67c188ed70823458eaf90') in 0.002537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Items/platformPack_item002.png
+  artifactKey: Guid(2b51d6d266ec2f4429f1449384fd1dbe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Items/platformPack_item002.png using Guid(2b51d6d266ec2f4429f1449384fd1dbe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f5170c6826da8c68c1d755b796e6526f') in 0.011208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/kenney_simplified-platformer-pack/Vector/platformPack_tile_vector.svg
+  artifactKey: Guid(6a2794a2b6e1af14fb202f1ce6622ac0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/Vector/platformPack_tile_vector.svg using Guid(6a2794a2b6e1af14fb202f1ce6622ac0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '18da1cfabd0527fd1dad0aff052a9e50') in 0.003904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Items/platformPack_item003.png
+  artifactKey: Guid(73b1c36a8e40b854f810f13e9b12fee1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Items/platformPack_item003.png using Guid(73b1c36a8e40b854f810f13e9b12fee1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5ad6c2c74bba6ba53853e59626b10551') in 0.010877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Items/platformPack_item017.png
+  artifactKey: Guid(d947862265b3d2c4daaaead4018bbbc4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Items/platformPack_item017.png using Guid(d947862265b3d2c4daaaead4018bbbc4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7492be9c9e95706ca6f95cd4ca85ba44') in 0.009028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+  artifactKey: Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf using Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0bf0792e75aca73e6c21aee1eb7b921c') in 0.002364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Items/platformPack_item014.png
+  artifactKey: Guid(583991c2d8c17a14ea504fd00158a472) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Items/platformPack_item014.png using Guid(583991c2d8c17a14ea504fd00158a472) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1eb66435279a46b15e20cb49c80e174d') in 0.008630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Items/platformPack_item011.png
+  artifactKey: Guid(98de83b614e8ffd4fa44b0af196a0f53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Items/platformPack_item011.png using Guid(98de83b614e8ffd4fa44b0af196a0f53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b4bc7e376edc8e2bd3e8a168dfbe6b44') in 0.008494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+  artifactKey: Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fe6bced258599a9d7a1ef49af58b1c2d') in 0.002691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7524b027f32223e202908566378673f7') in 0.003186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd43140ab56fd407ab8a0fd127ba0e893') in 0.009374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+  artifactKey: Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '418eba3a5aed4d9d4c32d27f3bccc8a1') in 0.007207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GameJam-main/Textures/Bee_Hive.fbx
+  artifactKey: Guid(2e8adfa0801784f4582c7f7b31382791) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GameJam-main/Textures/Bee_Hive.fbx using Guid(2e8adfa0801784f4582c7f7b31382791) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4c31646cda6edf9e1247f7ddea07b166') in 0.013119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fcfe8101234fb3cac1db5a88e9b47b19') in 0.002782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4a8875513afeee7eac2a4c89c09c1791') in 0.003860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Items/platformPack_item008.png
+  artifactKey: Guid(ddf8ac4a37ec9634bb60a22795360301) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Items/platformPack_item008.png using Guid(ddf8ac4a37ec9634bb60a22795360301) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1fcf68cfa899167100eb9545659986b9') in 0.011816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile001.png
+  artifactKey: Guid(1d88714cc007ea844a1a29049f1bc827) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile001.png using Guid(1d88714cc007ea844a1a29049f1bc827) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6ea61a5435c0bad8469fb438d83de381') in 0.008852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/GameJam-main/Scripts/destination.cs
+  artifactKey: Guid(496b8d4c0e389b34db550778af90aeea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GameJam-main/Scripts/destination.cs using Guid(496b8d4c0e389b34db550778af90aeea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd28c1a4986ba190f75c1ec099fc7274b') in 0.002577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Items/platformPack_item005.png
+  artifactKey: Guid(26c4c42e15b43cb4795bfe8727e97fdc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Items/platformPack_item005.png using Guid(26c4c42e15b43cb4795bfe8727e97fdc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '616cc4709fcd660dfd9baad869676b1b') in 0.012576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Items/platformPack_item001.png
+  artifactKey: Guid(2a5fe4031a368c8419a96130d8268c77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Items/platformPack_item001.png using Guid(2a5fe4031a368c8419a96130d8268c77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ac8d94b986c75df80f8771940177bf51') in 0.008706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Characters/platformChar_idle.png
+  artifactKey: Guid(45d92ad1527989f4fb385cb5d6d689ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Characters/platformChar_idle.png using Guid(45d92ad1527989f4fb385cb5d6d689ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '02e8144091bb8d5813ba4db0abaa979e') in 0.011079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+  artifactKey: Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader using Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bbff63e554569931752ff6afcc76e313') in 0.004055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/GameJam-main/Scripts/Hikaye.cs
+  artifactKey: Guid(0b6ac12dced16bb47ab388f03fe5c381) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GameJam-main/Scripts/Hikaye.cs using Guid(0b6ac12dced16bb47ab388f03fe5c381) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '13275d1dee6ae0d9b52aa1349b04d60a') in 0.003343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/kenney_simplified-platformer-pack/Tilesheet/platformPack_tilesheet.png
+  artifactKey: Guid(497bddc7f31791540aeb43129354d206) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/Tilesheet/platformPack_tilesheet.png using Guid(497bddc7f31791540aeb43129354d206) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '874d3f036a44e24f98359cf7c691f42c') in 0.010108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/GameJam-main/Textures/Bee (1).fbx
+  artifactKey: Guid(2195e5e314fa61f438ba51a5b43c0b37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GameJam-main/Textures/Bee (1).fbx using Guid(2195e5e314fa61f438ba51a5b43c0b37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c71cdd3d5a494b4d13e7294204ebd0be') in 0.019856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Items/platformPack_item004.png
+  artifactKey: Guid(f49112980c0a3324f8895c482b956af0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Items/platformPack_item004.png using Guid(f49112980c0a3324f8895c482b956af0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5d9760b5cadc7e49ca9b98d435276895') in 0.007985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Characters/platformChar_happy.png
+  artifactKey: Guid(214472468701b3a4eba0835058063369) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Characters/platformChar_happy.png using Guid(214472468701b3a4eba0835058063369) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e214c07cd2bfe7727016342c1a6dbe6b') in 0.010226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Items/platformPack_item010.png
+  artifactKey: Guid(59ea0a595c98e004b84c673d152730ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Items/platformPack_item010.png using Guid(59ea0a595c98e004b84c673d152730ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a629903e8e8a6cbc2489532d48334fc5') in 0.009599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+  artifactKey: Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF.shader using Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '092309c406ffc0d1a2210694c1b1fb61') in 0.003972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/GameJam-main/Textures/Honeycomb_3.prefab
+  artifactKey: Guid(731a82d0dd62e9344a7d1a287e206cb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GameJam-main/Textures/Honeycomb_3.prefab using Guid(731a82d0dd62e9344a7d1a287e206cb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dc8202fc03d7348bef74556b64302603') in 0.002366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Scripts/CharacterController.cs
+  artifactKey: Guid(09e5ee80b69a6b649b53c0937ca8cb22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/CharacterController.cs using Guid(09e5ee80b69a6b649b53c0937ca8cb22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '732956cf41950e8188bbb2c046c1d8cb') in 0.003284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/can/564-honey-pot.svg.png
+  artifactKey: Guid(c0d2f415427e21c43bcfe868998c790b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/can/564-honey-pot.svg.png using Guid(c0d2f415427e21c43bcfe868998c790b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5de0ee9b37503f84954339b5cd5d2a29') in 0.011305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Characters/platformChar_duck.png
+  artifactKey: Guid(d7c0390c59df4b749a42f53975e91ab9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Characters/platformChar_duck.png using Guid(d7c0390c59df4b749a42f53975e91ab9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '14ab7f15031c4a172b6cbd0537790997') in 0.011517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/GameJam-main/Animations/ilk.anim
+  artifactKey: Guid(ff59783efb223f947950be914fb8b238) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GameJam-main/Animations/ilk.anim using Guid(ff59783efb223f947950be914fb8b238) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0e115def7e6ea6baa35d497d4178f11c') in 0.004909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.135439 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile012.png
+  artifactKey: Guid(f16ab466b8ccf224cb8c66323450f1ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile012.png using Guid(f16ab466b8ccf224cb8c66323450f1ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c69340dce972f69f1cbca4bec55ef512') in 0.007756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b6188d83aee8a53b558fff4664c547f1') in 0.014471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile065.png
+  artifactKey: Guid(647c444131220c54da182ee60fc5c69a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile065.png using Guid(647c444131220c54da182ee60fc5c69a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '873d53e74f2269219698126d7e3aab2f') in 0.009852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile063.png
+  artifactKey: Guid(e4a6d2e9bb912934689f559386fe5fdc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile063.png using Guid(e4a6d2e9bb912934689f559386fe5fdc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f1e8746bcbd3deb0d156033d06b99f58') in 0.010617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile013.png
+  artifactKey: Guid(579e5b9e5b54d3f479a48f0377dee7f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile013.png using Guid(579e5b9e5b54d3f479a48f0377dee7f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3c944038559a23a8e80dad25b5485b1b') in 0.008512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile050.png
+  artifactKey: Guid(94c49ca286be06247ad07da0938822c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile050.png using Guid(94c49ca286be06247ad07da0938822c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '93649fa963cfdc9479caa93d31845494') in 0.009489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile029.png
+  artifactKey: Guid(3130e8a58ed24e94788e7b69531ff92b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile029.png using Guid(3130e8a58ed24e94788e7b69531ff92b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '927264d4c3b5e90c81eca9a64f816b99') in 0.007740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile033.png
+  artifactKey: Guid(158c3be6690764b4fb0eb4b90aa9f421) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile033.png using Guid(158c3be6690764b4fb0eb4b90aa9f421) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c64dae26801c21cdf3f67e6915ee1dcb') in 0.009123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile020.png
+  artifactKey: Guid(6dce39cd29b8c434f854fdfe1e3cdd7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile020.png using Guid(6dce39cd29b8c434f854fdfe1e3cdd7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c1fa97490353228be94af316b6f3df57') in 0.008690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile031.png
+  artifactKey: Guid(b3f1ab9a1b1be0c4c852de658952b444) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile031.png using Guid(b3f1ab9a1b1be0c4c852de658952b444) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1020845fb7c8e30aa0616d032a264a12') in 0.009553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile017.png
+  artifactKey: Guid(d0ec0ca3a2774b342b43e4b47b7e59b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile017.png using Guid(d0ec0ca3a2774b342b43e4b47b7e59b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '92ee9cc7ed19990ded3148419dfb21f4') in 0.007708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile049.png
+  artifactKey: Guid(98cbccdd2055b0f45b3f05939813f686) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile049.png using Guid(98cbccdd2055b0f45b3f05939813f686) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9a1a7f3a93f87a8e71a3e5b0c715f8c5') in 0.007295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile021.png
+  artifactKey: Guid(fb86f8e554d30be41b178525e6fae6bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile021.png using Guid(fb86f8e554d30be41b178525e6fae6bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '23da363d36d7a90737a363dbb62994ce') in 0.007430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile019.png
+  artifactKey: Guid(c9fb2da7739d2d9468b45ac8008d1e5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile019.png using Guid(c9fb2da7739d2d9468b45ac8008d1e5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '31fa86f200dafb8dc11c5c280042439c') in 0.008186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile054.png
+  artifactKey: Guid(1f42719bfd1e1454b990f10ed3b7ac92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile054.png using Guid(1f42719bfd1e1454b990f10ed3b7ac92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e094532649292c2f13652fe9f9e2b43f') in 0.009176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile014.png
+  artifactKey: Guid(d6478ad557c483e47b535df2940e657b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile014.png using Guid(d6478ad557c483e47b535df2940e657b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'db2f7d1e827f299e3529b63704aa0dc3') in 0.007011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile043.png
+  artifactKey: Guid(1bcae347931c01e44b8fc024150b789c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile043.png using Guid(1bcae347931c01e44b8fc024150b789c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f457f856fd9ab053408514e5e9fa305a') in 0.010018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile040.png
+  artifactKey: Guid(a86a9a57606514747a6f21988a44855d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile040.png using Guid(a86a9a57606514747a6f21988a44855d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f65ab6814e3bb0e1803604b3994827f4') in 0.008143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002864 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile039.png
+  artifactKey: Guid(7dfd460f9500d544c8f9fb0f2ec5bc31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile039.png using Guid(7dfd460f9500d544c8f9fb0f2ec5bc31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ed716f80d1d10f00780ef8c7fc4dc8ea') in 0.008485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile027.png
+  artifactKey: Guid(2ca4580a1473c5046bfd6d8f2ada8585) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile027.png using Guid(2ca4580a1473c5046bfd6d8f2ada8585) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dacd1061adc410139926aa6f9e69dee2') in 0.009626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '30ff87cd50935c34316203e1367b68e1') in 0.008890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a55cfac931b6aa8eb2b81ad7a05e14c3') in 0.039936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile041.png
+  artifactKey: Guid(e559341a236dc6e4b9867b87f0120c0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile041.png using Guid(e559341a236dc6e4b9867b87f0120c0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7548712bff7edac27cedcf59a674a1b6') in 0.007700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile032.png
+  artifactKey: Guid(48c36a89f92d4594f9357cf0c84fabcc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile032.png using Guid(48c36a89f92d4594f9357cf0c84fabcc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '51b7e12378ba7240c4b207564599761a') in 0.010367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile025.png
+  artifactKey: Guid(83a1957e0b3918b49b766367fb1936bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile025.png using Guid(83a1957e0b3918b49b766367fb1936bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '36683986a91939d57ebde15c30c224db') in 0.008163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile064.png
+  artifactKey: Guid(e7269f97d64763146a661169b7fe2935) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile064.png using Guid(e7269f97d64763146a661169b7fe2935) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '40cf92351a48be5d809d08a3c3b1dc21') in 0.007774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile024.png
+  artifactKey: Guid(be0ab08d82114a540bf0c6349817fc62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile024.png using Guid(be0ab08d82114a540bf0c6349817fc62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '01ed949e3afbc6a6db52bf6dea2e4b02') in 0.009465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile044.png
+  artifactKey: Guid(5abd5b720f2504b419a9c8fc56418031) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile044.png using Guid(5abd5b720f2504b419a9c8fc56418031) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '73f2bda4ee65459092a48a57c4214952') in 0.009702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile023.png
+  artifactKey: Guid(953fb036f60e3214081e268328c4b765) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile023.png using Guid(953fb036f60e3214081e268328c4b765) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f97ac6bbcb6313799d25828841b7b2bd') in 0.009541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile058.png
+  artifactKey: Guid(5b4d8a64d05d49c41a40e38848f7171c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/kenney_simplified-platformer-pack/PNG/Tiles/platformPack_tile058.png using Guid(5b4d8a64d05d49c41a40e38848f7171c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5f77b6d12e27e13e6f673f046e3d0a9d') in 0.008904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 129.879312 seconds.
+  path: Assets/GameJam-main/Textures/bee-hive_1888375.png
+  artifactKey: Guid(5ca74aaeb4107a1449b65e7e43c3ae9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameJam-main/Textures/bee-hive_1888375.png using Guid(5ca74aaeb4107a1449b65e7e43c3ae9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac633528aa4ade906b56dc80f5513f3') in 0.034158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/GameJam-main/Textures/Honeycomb_2.prefab
+  artifactKey: Guid(7931d6b1aef359f489336e409c9e11e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameJam-main/Textures/Honeycomb_2.prefab using Guid(7931d6b1aef359f489336e409c9e11e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14455df5800365b4b36bb12dc14ddc70') in 0.000776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GameJam-main/Textures/Honeycomb_1.prefab
+  artifactKey: Guid(699a07e4cc13d1543b7dc3425e647513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameJam-main/Textures/Honeycomb_1.prefab using Guid(699a07e4cc13d1543b7dc3425e647513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '102febe397ce54adc16c6d25f82977e6') in 0.000794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/GameJam-main/Textures/Cube (1).prefab
+  artifactKey: Guid(705b583f4525af4408f9edfa3f3dc247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameJam-main/Textures/Cube (1).prefab using Guid(705b583f4525af4408f9edfa3f3dc247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '251cf578abd8a9a92af8b1f132977064') in 0.005198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/GameJam-main/Textures/Bee_Hive.fbx
+  artifactKey: Guid(2e8adfa0801784f4582c7f7b31382791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameJam-main/Textures/Bee_Hive.fbx using Guid(2e8adfa0801784f4582c7f7b31382791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58688f72d56c3f5106ce46b45d3d3b27') in 0.012751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/GameJam-main/Textures/Honeycomb_3.prefab
+  artifactKey: Guid(731a82d0dd62e9344a7d1a287e206cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameJam-main/Textures/Honeycomb_3.prefab using Guid(731a82d0dd62e9344a7d1a287e206cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6005a7b1f57148891d39af8aeff77f0') in 0.000606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Bir is parçacigi çikisi veya bir uygulama istegi nedeniyle G/Ç islemi iptal edildi.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
